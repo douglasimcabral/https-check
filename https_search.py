@@ -43,7 +43,8 @@ def https_search(url):
         print search_sites
         print
         for key in search_sites.keys():
-            print key, search_sites[key]
+            #print key, search_sites[key]
+            print unicode(key).encode('cp850'), unicode(search_sites[key]).encode('cp850')
         if len(search_sites) == 0 or len(search_sites) < desired_results:
             time.sleep( temp ) 
             count += temp 
