@@ -100,3 +100,6 @@ def continuacao(site):
 
         print searchObj.group()
         print searchObj.group('root')
+
+def access_site(link_var):
+    return "http://www3.transparencia.gov.br/TransparenciaPublica/"+link_var
