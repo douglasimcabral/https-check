@@ -1,3 +1,5 @@
+# -*- coding: latin-1 -*-
+
 import urllib2
 import re
 from https_search  import https_search
